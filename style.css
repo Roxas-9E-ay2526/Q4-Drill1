@@ -1,0 +1,44 @@
+.header {
+      padding: 40px;
+    }
+
+    .title {
+      font-size: 24px;
+      font-weight: bold;
+      color: white;
+    }
+
+    .box {
+      background: #1f2630;
+      color: white;
+      border-radius: 20px;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+
+    .kwh-label {
+      font-size: 28px;
+      font-weight: bold;
+    }
+
+    .btn-custom {
+      background-color: #ffc107;
+      border: none;
+      font-weight: bold;
+    }
+
+    .error {
+      color: red;
+      font-style: italic;
+      font-size: 14px;
+    }
+
+    body {
+    background-image: url("electricity.jpg"); 
+    background-size: cover;      
+    background-repeat: no-repeat; 
+    background-position: center; 
+    height: 100vh;
+}
